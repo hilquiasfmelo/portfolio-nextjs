@@ -2,6 +2,7 @@ import { HomeContainer } from '../styles/homeStyles';
 
 import { Header } from '../components/Header';
 import { HomeHero } from '../components/HomeHero';
+import { Experiences } from '../components/Experiences';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
 
       <main className="container">
         <HomeHero />
+        <Experiences />
       </main>
     </HomeContainer>
   );
